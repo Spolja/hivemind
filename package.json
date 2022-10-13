@@ -1,0 +1,26 @@
+{
+  "name": "hivemind",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "",
+  "author": "Spoljo",
+  "workspaces": [
+    "workspaces/**/*"
+  ],
+  "scripts": {
+    "template": "yarn workspace @hivemind/template",
+    "graphql": "yarn workspace @hivemind/graphql"
+  },
+  "dependencies": {
+    "@types/node": "^18.7.19",
+    "nodemon": "^2.0.15",
+    "dotenv": "^16.0.2",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "jest": "^29.0.3",
+    "ts-jest": "^29.0.1",
+    "ts-node": "^10.9.1"
+  }
+}

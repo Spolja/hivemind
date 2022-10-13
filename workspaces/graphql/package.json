@@ -1,0 +1,9 @@
+{
+  "name": "@hivemind/graphql",
+  "version": "0.0.1",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "ts-node src/server.ts"
+  }
+}
